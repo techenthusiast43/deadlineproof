@@ -1,0 +1,23 @@
+{
+  "name": "deadline-proof",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DeadlineProof - On-chain deadline and task accountability dApp on BOT Chain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network botTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network botMainnet",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.29.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
+
